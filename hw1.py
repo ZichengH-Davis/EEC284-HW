@@ -12,7 +12,6 @@ for i in range(len(p)):
     next_q = q_frac[i] * Fraction(p[i], c[i])
     q_frac.append(next_q)
 
-print("q as fractions:", q_frac)
 denoms = [x.denominator for x in q_frac]
 
 lcm = denoms[0]
